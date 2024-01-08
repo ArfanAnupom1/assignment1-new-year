@@ -1,45 +1,80 @@
-. {
+body {
     margin: 0;
     padding: 0;
 }
 
-.banner {
-    background-image: url(../resources/Banner\ Image.png);
-    height: 100vh;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    margin: 50px 140px;
-    border-radius: 16px;
-
+body,
+html {
+    height: 100%;
+    margin: 0;
 }
 
-.gretting {
-    color: #FFF;
-
+.Subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    font-family: Merriweather;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    padding-top: 180px;
+}
 
+.contain7 {
+    text-align: center;
+    /* Center the text within the container */
+}
+
+.banner {
+    position: relative;
+    background-image: url(../resources/Banner\ Image.png);
+    background-size: contain;
+    background-position: center;
+    height: 79vh;
+    background-repeat: no-repeat;
+
+    border-radius: 16px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    margin: 20px 150px 0;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.greeting,
+.welcome {
+    margin: 0;
+    color: #FFF;
+    font-family: Merriweather;
+}
+
+.greeting {
+    font-size: 32px;
+    font-weight: 400;
 }
 
 .welcome {
-
-    color: #FFF;
-    text-align: center;
-    font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
     width: 632px;
-    padding-left: 500px;
-
-
+    margin-top: 20px;
 }
+
+
+
 
 .discount {
 
@@ -261,13 +296,13 @@ span {
 }
 
 .contain3 {
-    width: 1068px;
+
     color: rgba(7, 2, 17, 0.60);
 
 
     font-family: Inter;
     font-size: 20px;
-    margin-left: 400px;
+
     font-weight: 500;
     line-height: 32px;
     margin-top: 24px;
@@ -321,7 +356,7 @@ span {
 }
 
 .Group75 {
-    ;
+   
     margin-top: -900px;
     margin-left: -450px;
 
@@ -460,8 +495,7 @@ span {
 }
 
 .footer {
-    width: 1900px;
-    height: 609px;
+
     flex-shrink: 0;
     background: #070211;
     padding-top: 120px;
@@ -506,13 +540,15 @@ span {
     margin-top: 0px;
 }
 
-.lastfooter{
+.lastfooter {
     display: flex;
     justify-content: space-between;
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 50px;
+    padding-bottom: 50px;
 }
+
 .hfoot {
     color: #FFF;
 
@@ -531,4 +567,39 @@ span {
 
     font-weight: 500;
 
+}
+
+.image6 {
+    display: flex;
+
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-around;
+
+
+
+}
+
+.image7 {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+    justify-content: space-around;
+
+
+
+}
+
+.hover {
+    transition: opacity 0.3s;
+}
+
+.hover:hover {
+    opacity: 0.8;
+    margin-left: 10px;
+}
+
+.container {
+    text-align: center;
 }
