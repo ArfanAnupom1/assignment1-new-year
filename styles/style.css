@@ -27,7 +27,7 @@ html {
     background-image: url(../resources/Banner\ Image.png);
     background-size: contain;
     background-position: center;
-    height: 76vh;
+    height: 76.5vh;
     background-repeat: no-repeat;
 
     border-radius: 16px;
@@ -220,7 +220,8 @@ span {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    border-radius: 8px;
+    border-radius: 15px;
+    border: #F00;
     background: #F00;
 }
 
@@ -556,6 +557,11 @@ span {
     margin-top: 48px;
     text-align: center;
     margin-bottom: 48px;
+    gap: 5px;
+}
+
+.logo img {
+    margin-right: 24px;
 }
 
 .hr1 {
