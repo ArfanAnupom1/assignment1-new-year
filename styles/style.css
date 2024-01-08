@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     margin: 50px 140px;
     border-radius: 16px;
-    
+
 }
 
 .gretting {
@@ -264,7 +264,7 @@ span {
     width: 1068px;
     color: rgba(7, 2, 17, 0.60);
 
-    
+
     font-family: Inter;
     font-size: 20px;
     margin-left: 400px;
@@ -289,7 +289,7 @@ span {
     font-size: 24px;
 
     font-weight: 500;
-    margin-top: 120px ;
+    margin-top: 120px;
     margin-bottom: 0PX;
 
 
@@ -304,72 +304,231 @@ span {
     margin-bottom: 0px;
 }
 
-.imagetoge{
+.imagetoge {
     background-image: url(../resources/Rectangle\ 1.png);
     background-repeat: no-repeat;
     margin-left: 1300px;
     background-size: 70%;
     margin-top: 200px;
-    
-   
-}
-.group44{
-    margin-left: -600px;
-    
-    
+
+
 }
 
-.Group75{
+.group44 {
+    margin-left: -600px;
+
+
+}
+
+.Group75 {
     ;
     margin-top: -900px;
     margin-left: -450px;
-    
+
 }
-.Rectangle{
+
+.Rectangle {
     display: block;
     margin-left: 400px;
-   
+
     resize: horizontal;
-  
+
 }
 
-.best{
+.best {
     color: #F00;
 
-text-align: left;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
-margin-left: 150px;
-margin-top: 16px;
+    text-align: left;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: 150px;
+    margin-top: 16px;
 }
 
-.Portfolio{
+.Portfolio {
     color: #070211;
 
-font-family: Merriweather;
-font-size: 48px;
+    font-family: Merriweather;
+    font-size: 48px;
 
-font-weight: 900;
-text-align: left;
-margin-left: 150px;
-margin-top: 0px;
-margin-bottom: 22px;
+    font-weight: 900;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 0px;
+    margin-bottom: 22px;
 
 }
-.contain5{
+
+.contain5 {
     width: 896px;
-color: rgba(7, 2, 17, 0.60);
+    color: rgba(7, 2, 17, 0.60);
 
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
-text-align: left;
-margin-left: 150px;
-margin-top: 0px;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    margin-left: 150px;
+    margin-top: 0px;
 
 }
 
+.Subscribe {
+    background-color: #ffe9eb;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 120px;
+
+}
+
+.imgGroup61 {
+    margin-bottom: 40px;
+    padding-top: 80px;
+
+}
+
+.Newsletter {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.contain7 {
+    text-align: center;
+    width: 896px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 48px;
+
+
+}
+
+.form {
+    margin-top: 0px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+
+
+}
+
+.mail {
+    width: 648px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 50px 0px 0px 50px;
+    ;
+    background: #FFF;
+}
+
+.button {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    margin-left: -5px;
+}
+
+.foot {
+    display: inline;
+    justify-content: space-between;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newaddress {
+    margin-left: 150px;
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer {
+    width: 1900px;
+    height: 609px;
+    flex-shrink: 0;
+    background: #070211;
+    padding-top: 120px;
+}
+
+.Contact {
+    margin-right: 150px;
+}
+
+.mobile {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+
+}
+
+.website {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+
+
+}
+
+.hr {
+    margin-top: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.logo {
+    margin-top: 48px;
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.hr1 {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 0px;
+}
+
+.lastfooter{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
+}
+.hfoot {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+
+    font-weight: 500;
+
+}
+
+.btn2 {
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+
+    font-weight: 500;
+
+}
