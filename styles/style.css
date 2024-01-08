@@ -19,7 +19,7 @@ html {
 
 .contain7 {
     text-align: center;
-    /* Center the text within the container */
+
 }
 
 .banner {
@@ -27,7 +27,7 @@ html {
     background-image: url(../resources/Banner\ Image.png);
     background-size: contain;
     background-position: center;
-    height: 79vh;
+    height: 76vh;
     background-repeat: no-repeat;
 
     border-radius: 16px;
@@ -37,6 +37,7 @@ html {
     justify-content: center;
     overflow: hidden;
     margin: 20px 150px 0;
+
 }
 
 
@@ -117,15 +118,12 @@ html {
 }
 
 .midnight-party {
-    background-image: url(../resources/Vectorrr.png);
-    height: 100vh;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
     margin: 50px 140px;
     border-radius: 16px;
-
-
-
 }
 
 .midnighttext {
@@ -157,16 +155,22 @@ html {
 }
 
 .btn {
-    color: black;
+    color: #FFF;
     text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
     margin-top: 26px;
     margin-left: 158px;
-
+    margin-bottom: 262px;
+    background-color: transparent;
+    border: none;
+    padding: 0;
 }
+
 
 .img {
     position: absolute;
@@ -185,17 +189,16 @@ html {
     text-transform: capitalize;
 
     flex-shrink: 0;
-    background-color: #ffe9eb;
-    margin-top: -120px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+
 
     margin-left: 150px;
     margin-right: 150px;
     padding-top: 100px;
     padding-bottom: 100px;
     border-radius: 8px;
-
-
 }
+
 
 span {
     color: red;
@@ -203,12 +206,15 @@ span {
 
 .btn1 {
 
-    color: black;
+    color: #FFF;
+
     text-align: center;
     font-family: Inter;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
     display: inline-flex;
     padding: 16px 32px;
     justify-content: center;
@@ -216,6 +222,22 @@ span {
     gap: 10px;
     border-radius: 8px;
     background: #F00;
+}
+
+.subscribe-text {
+    color: #FFF;
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.mail {
+    padding-left: 30px;
 }
 
 
@@ -356,7 +378,7 @@ span {
 }
 
 .Group75 {
-   
+
     margin-top: -900px;
     margin-left: -450px;
 
@@ -412,7 +434,7 @@ span {
 }
 
 .Subscribe {
-    background-color: #ffe9eb;
+    background: rgba(255, 0, 0, 0.05);
     margin-left: 150px;
     margin-right: 150px;
     margin-top: 120px;
@@ -471,7 +493,9 @@ span {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     margin-left: -5px;
+
 }
+
 
 .foot {
     display: inline;
